@@ -1,0 +1,1 @@
+web: java -jar target/appraiser-1.0.jar
