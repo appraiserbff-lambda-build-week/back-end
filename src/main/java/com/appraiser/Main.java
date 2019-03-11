@@ -22,12 +22,9 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
 
 import javax.sql.DataSource;
 
-@Controller
 @SpringBootApplication
 public class Main {
   @Value("${spring.datasource.url}")
@@ -35,11 +32,6 @@ public class Main {
 
   public static void main(String[] args) {
     SpringApplication.run(Main.class, args);
-  }
-
-  @GetMapping("/")
-  String works() {
-    return "index";
   }
 
   @Bean
