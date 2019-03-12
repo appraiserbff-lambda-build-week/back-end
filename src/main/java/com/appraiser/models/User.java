@@ -20,7 +20,7 @@ public class User {
   @JsonIgnore
   private String password;
 
-  // connection to real estate data
+  // connection to house data
 
   public User() {}
 }

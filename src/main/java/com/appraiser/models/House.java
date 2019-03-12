@@ -31,4 +31,9 @@ public class House {
 
   @Column(name = "property_age")
   private double propertyAge;
+
+  @Column(name = "zip_code")
+  private int zipCode;
+
+  public House() {}
 }
