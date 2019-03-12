@@ -19,22 +19,16 @@ public class House {
   @Column(name = "square_feet")
   private double squareFeet;
 
-  @Column(name = "lot-size")
+  @Column(name = "lot_size")
   private double lotSize;
 
-  @Column(name = "year-built")
-  private double yearBuilt;
-
-  @Column(name = "cost-per-square-foot")
-  private double costPerSquareFoot;
-
-  @Column(name = "hoa-fee-per-month")
+  @Column(name = "hoa_fee_per_month")
   private double hoaFeePerMonth;
 
   // to be sent as an int via some map
-  @Column(name = "property-type")
+  @Column(name = "property_type")
   private String propertyType;
 
-  @Column(name = "property-age")
+  @Column(name = "property_age")
   private double propertyAge;
 }
