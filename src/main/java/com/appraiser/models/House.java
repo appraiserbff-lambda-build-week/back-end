@@ -35,5 +35,7 @@ public class House {
   @Column(name = "zip_code")
   private int zipCode;
 
+  // connection to user, if logged in
+
   public House() {}
 }
