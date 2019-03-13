@@ -35,6 +35,19 @@ public class House {
   @Column(name = "zip_code")
   private int zipCode;
 
+  @Column(name = "total_rooms")
+  private int totalRooms;
+
+  @Column(name = "property_taxes")
+  private double propertyTaxes;
+
+  // to be sent as an int via some map
+  @Column(name = "land_use_type")
+  private String landUseType;
+
+  @Column(name = "year_assessment")
+  private int yearAssessment;
+
   // connection to user, if logged in
 
   public House() {}
